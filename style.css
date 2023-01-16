@@ -1,0 +1,54 @@
+#countLabel {
+      display: flex;
+      margin-left: 95px;
+      align-items: flex-start;
+      font-size: 50px;
+}
+
+body {
+      background-color: lightsteelblue;
+}
+
+body > div {
+      display: flex;
+      flex-direction: column;
+      
+}
+
+button {
+      display: flex;
+      align-items: flex-start;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 600;
+      font-size: 25px;
+      justify-content: center;
+      width: 200px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 10px;
+      border-radius: 15px;
+}
+
+#increaseBtn {
+      background-color: limegreen;
+}
+
+#decreaseBtn {
+      background-color: crimson;
+}
+
+#resetBtn {
+      background-color: antiquewhite;
+}
+
+#increaseBtn:active {
+      background-color: lightgreen;
+}
+
+#decreaseBtn:active {
+      background-color: salmon;
+}
+
+#resetBtn:hover {
+      background-color: turquoise;
+}
