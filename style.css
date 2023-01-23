@@ -1,89 +1,71 @@
-#countLabel {
-      display: flex;
-      margin-left: 95px;
-      align-items: flex-start;
-      font-size: 50px;
-}
-
 body {
-      background-color: lightsteelblue;
+      background-image: linear-gradient(lightsteelblue, antiquewhite);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Righteous', Courier, monospace;
       display:flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
 }
 
-body > div {
-      display: flex;
-      flex-direction: column;
-      justify-items: center;
-      align-content: center;
-      
-}
-
-
 h1 {
-
       border: 4px solid seagreen;
       border-style:groove;
       padding: 10px;
-      font-family: 'Righteous', serif;
+      box-shadow: 4px 4px 4px slategray;
 }
+
 #countLabel {
-      margin-right: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 60px;
+      text-shadow: 3px 3px 3px slategrey;
 }
 
 button {
+      font-family: 'Righteous', Courier, monospace;
       display: flex;
       align-items: flex-start;
-      font-family: 'Courier New', Courier, monospace;
-      font-weight: 600;
+      font-weight: 300;
       font-size: 25px;
       justify-content: center;
       width: 200px;
       margin-top: 5px;
       margin-bottom: 5px;
-      margin-left: 10px;
       border-radius: 15px;
+      box-shadow: 4px 4px 4px slategrey;
 }
 
-#increaseBtn, #plus5 {
+#increaseBtn, #add5 {
       background-color: limegreen;
       
 }
 
-#decreaseBtn, #minus5 {
-      background-color: crimson;
-}
-
-#resetBtn {
-      background-color: antiquewhite;
-}
-
-#increaseBtn:active, #plus5:active {
+#increaseBtn:active, #add5:active {
       background-color: lightgreen;
 }
 
-#increaseBtn:hover, #plus5:hover{
+#increaseBtn:hover, #add5:hover{
       border-color: greenyellow;
 }
 
-#decreaseBtn:active, #minus5:active {
+#decreaseBtn, #take5 {
+      background-color: crimson;
+}
+
+#decreaseBtn:active, #take5:active {
       background-color: salmon;
 }
 
-#decreaseBtn:hover, #minus5:hover {
+#decreaseBtn:hover, #take5:hover {
       border-color: orangered;
-}
-
-#resetBtn:hover {
-      background-color: turquoise;
-      border-color: gold;
 }
 
 #randomNum {
       background-image: linear-gradient(purple, orange);
-      color: lawngreen;
+      color: yellow;
 }
 
 #randomNum:hover {
@@ -91,3 +73,20 @@ button {
       background-image: linear-gradient(cyan, indigo);
       color:hotpink;
 }
+
+#randomNum:active {
+      color: slategrey;
+}
+
+#resetBtn {
+      background-image: linear-gradient(navajowhite, darkkhaki);
+      color:indigo;
+      
+}
+
+#resetBtn:hover {
+      background-image: linear-gradient(antiquewhite, whitesmoke);
+      border-color: seagreen;
+      color: dodgerblue;
+}
+
